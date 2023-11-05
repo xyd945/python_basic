@@ -45,3 +45,9 @@ you will be abck to your base env
 ```bash
 (base)xyd@macbook-pro %
 ```
+To REMOVE an env, run:
+```bash
+conda remove --name ENV_NAME --all
+```
+
+
