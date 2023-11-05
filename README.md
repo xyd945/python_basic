@@ -1,4 +1,4 @@
-# python_basic
+# Overview
 this is a learning repo where I document important steps to learn python and data analytics. That being said, let's get started by setting up the env first. 
 
 ## Conda
@@ -23,4 +23,25 @@ bash setup_new_conda_env.sh test_env 3.8
 👀 Please note you need to pass two arguments here, test_env is the environment name, and 3.8 is the python version you want to install. If you have particular python packages you want to when setting up the env, modify the bash file. By default, it will install ```numpy pandas matplotlib```.
 
 
+### How to use Conda
+Check your conda env list
+```bash
+conda env list
+```
 
+Simply run the env you want
+```bash
+conda activate env_name
+```
+The env name will show at the beginning of your command line like this
+```bash
+(env_name)xyd@macbook-pro %
+```
+when you want to exit the conda env, just run
+```bash
+conda deactivate
+```
+you will be abck to your base env 
+```bash
+(base)xyd@macbook-pro %
+```
